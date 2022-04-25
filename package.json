@@ -1,0 +1,17 @@
+{
+  "name": "full_stack_toy_project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jsni94/full_stack_toy_project.git",
+  "author": "JSIJSI <jynj94@naver.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces" : [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "client" : "yarn workspace client start",
+    "sever" : "yarn workspace server start"
+  }
+}
